@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/circle.png" type="image/x-icon">
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <!-- header start -->
+    <header class="header">
+        <a href="index.html" class="logo">Johirul</a>
+        <div class="icons">
+            <div class="uil uil-moon" id="theme-btn"></div>
+            <div class="uil uil-palette" id="color-btn"></div>
+            <div class="uil uil-search" id="search-btn"></div>
+            <div class="uil uil-bars" id="menu-btn"></div>
+        </div>
+        <nav class="navber">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <form action="#" class="search-form">
+            <input type="search" id="search-box" placeholder="search here....">
+            <label for="search-box" class="uil uil-search"></label>
+        </form>
+
+        <div class="colors-paletter">
+            <h3>Choose color</h3>
+            <div class="colors">
+                <div class="color" style="background: #1abc9c;"></div>
+                <div class="color" style="background: #2ecc71;"></div>
+                <div class="color" style="background: #3498db;"></div>
+                <div class="color" style="background: #9b59b6;"></div>
+                <div class="color" style="background: #16a085;"></div>
+                <div class="color" style="background: #f1c40f;"></div>
+                <div class="color" style="background: #e67e22;"></div>
+                <div class="color" style="background: #f39c12;"></div>
+                <div class="color" style="background: #d35400;"></div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="content">
+            <span id="about">Hi It's me <h3>Johirul Islam</h3></span>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum aliquam distinctio libero tenetur, eos ratione placeat rem porro. Error, repellendus.</p>
+            <a href="" class="btn">Hire Me</a>
+        </div>
+        <div class="content_img">
+            <img src="img/croped.png" alt="johirul islam">
+        </div>
+    </section>
+    <!-- home section end -->
+    <!-- services section start -->
+    <section class="services" id="service">
+        <h1 class="heading">Our <span>Services</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="uil uil-window"></i>
+                <h3>Web design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam aliquam incidunt nostrum fugit pariatur debitis.</p>
+            </div>
+            <div class="box">
+                <i class="uil uil-bug"></i>
+                <h3>Bug fixing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam aliquam incidunt nostrum fugit pariatur debitis.</p>
+            </div>
+            <div class="box">
+                <i class="uil uil-brackets-curly"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam aliquam incidunt nostrum fugit pariatur debitis.</p>
+            </div>
+            <div class="box">
+                <i class="uil uil-shopping-cart-alt"></i>
+                <h3>E-commerce Website</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam aliquam incidunt nostrum fugit pariatur debitis.</p>
+            </div>
+            <div class="box">
+                <i class="uil uil-mobile-android"></i>
+                <h3>Responsive design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam aliquam incidunt nostrum fugit pariatur debitis.</p>
+            </div>
+            <div class="box">
+                <i class="uil uil-megaphone"></i>
+                <h3>Digital marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam aliquam incidunt nostrum fugit pariatur debitis.</p>
+            </div>
+        </div>
+    </section>
+    <!-- services section end -->
+
+    <!-- portfolio section start -->
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading">Our <span>Portfolios</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/g-2.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="img/g-3.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="img/g-4.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="img/g-5.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="img/g-6.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="img/g-7.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section end -->
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact <span>us</span></h1>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" name="fname" placeholder="Enter your first name">
+                <input type="text" name="lname" placeholder="Enter your last name">
+            </div>
+            <div class="inputBox">
+                <input type="email" name="email" placeholder="Enter your email address">
+                <input type="text" name="phone" placeholder="Enter your phone number">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>
+            <input type="submit" value="Notify me" class="btn">
+        </form>
+    </section>
+
+    <section class="footer" id="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#home"><i class="uil uil-angle-right"></i> Home</a>
+                <a href="#about"><i class="uil uil-angle-right"></i>About</a>
+                <a href="#service"><i class="uil uil-angle-right"></i>Services</a>
+                <a href="#portfolio"><i class="uil uil-angle-right"></i> Portfolio</a>
+                <a href="#contact"><i class="uil uil-angle-right"></i> Contact</a>
+            </div>  
+            <div class="box">
+                <h3>contact info</h3>
+                <a href=""><i class="uil uil-angle-right"></i> mangopeople@gmail.com</a>
+                <a href=""><i class="uil uil-angle-right"></i> johirulkhalid25@gmail.com</a>
+                <a href=""><i class="uil uil-angle-right"></i> +8801887069645</a>
+                <a href=""><i class="uil uil-angle-right"></i> +8801998708743</a>
+            </div>
+            <div class="box">
+                <h3>Follow me</h3>
+                <a href=""><i class="uil uil-angle-right"></i> facebook</a>
+                <a href=""><i class="uil uil-angle-right"></i> instagram</a>
+                <a href=""><i class="uil uil-angle-right"></i> linkedin</a>
+                <a href=""><i class="uil uil-angle-right"></i> twitte</a>
+                <a href=""><i class="uil uil-angle-right"></i> raddit</a>
+                <a href=""><i class="uil uil-angle-right"></i> snapchat</a>
+            </div>
+            <div class="box">
+                <h3>Others link</h3>
+                <a href=""><i class="uil uil-angle-right"></i> google</a>
+                <a href=""><i class="uil uil-angle-right"></i> yahoo!</a>
+                <a href=""><i class="uil uil-angle-right"></i> yamaha</a>
+                <a href=""><i class="uil uil-angle-right"></i> tvs</a>
+            </div>
+        </div>
+    </section>
+    <div class="credit">© 2022 | Made with ♡ by <span>Johirul Islam</span></div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
